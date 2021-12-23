@@ -1,31 +1,23 @@
-let nomeDeAluno = ["Lunna", "Fabio", "Jose", "Ricardo"]
+var listaDEpecas=["amortecedor", "volante","motor"]
+let peso = 50;
 
-for (let nome of nomeDeAluno) {
-    console.log(`Esta pessoa se chama ${nome}`)
+if (peso < 100){
+    console.log("A peça deve ter no mínimo 100g")
+}else{
+    console.log("A peça possui o peso adequado!")
 }
 
-// while(contador <= numeroDeAlunos){
-//     //console.log(contador)
-//     if(contador == 0) {
-//         console.log("O número atual é zero!")
-//      }else if(contador % 2 == 0){
-//          console.log(`O número ${contador} é par!`)
-//      }else{
-//           console.log(`O número ${contador} é impar!`)
-//      }
-//      contador ++;
-//   }
-// }
-
-
-
-// for (let contador = 0; contador <= numeroDeAlunos; contador++) {
-//      //console.log(contador)  
-//    if(contador == 0) {
-//        console.log("O número atual é zero!")
-//     }else if(contador % 2 == 0){
-//         console.log(`O número ${contador} é par!`)
-//     }else{
-//          console.log(`O número ${contador} é impar!`)
-//     }
-//  }
+//Verificação de intens na loista
+var lista = ["Amortecedor", "Volante", "Motor"]
+if(lista < 10) {
+    console.log("È possível cadastrar mais peças")
+} else {
+    console.log("Não tem mais espaço na lista!")
+}
+//Nome com caracteres
+let nomePeca = "Motor"
+if(nomePeca.length > 3){
+    console.log("Nome de peça está adequado!")
+} else {
+    console.log("O nome deve ter mais de 3 caracteres.")
+}
